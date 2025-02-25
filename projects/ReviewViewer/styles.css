@@ -1,0 +1,28 @@
+/* Ensure full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh; /* Full screen height */
+}
+
+.left,
+.right {
+  flex: 1; /* Both take equal space */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: lightgray; /* Just to distinguish */
+}
+
+.right {
+  background-color: white;
+  border-left: 2px solid black; /* Divider */
+}
